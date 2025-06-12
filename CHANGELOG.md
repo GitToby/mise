@@ -1,5 +1,15 @@
 # Changelog
 
+## [2025.6.2](https://github.com/jdx/mise/compare/v2025.6.1..v2025.6.2) - 2025-06-12
+
+### 🚀 Features
+
+- **(aqua)** support cosign bundle option by [@risu729](https://github.com/risu729) in [#5314](https://github.com/jdx/mise/pull/5314)
+
+### 🐛 Bug Fixes
+
+- ls command does not respect MISE_COLOR value by [@roele](https://github.com/roele) in [#5322](https://github.com/jdx/mise/pull/5322)
+
 ## [2025.6.1](https://github.com/jdx/mise/compare/v2025.6.0..v2025.6.1) - 2025-06-09
 
 ### 🚀 Features
@@ -15,6 +25,7 @@
 
 - **(registry)** fix links of registry by [@risu729](https://github.com/risu729) in [#5266](https://github.com/jdx/mise/pull/5266)
 - **(registry)** fix links to tools by [@risu729](https://github.com/risu729) in [#5272](https://github.com/jdx/mise/pull/5272)
+- update example with `pnpm` by [@mrazauskas](https://github.com/mrazauskas) in [#5306](https://github.com/jdx/mise/pull/5306)
 
 ### 🧪 Testing
 
@@ -23,6 +34,10 @@
 ### 🛡️ Security
 
 - **(security)** prevent untarring outside expected path by [@jdx](https://github.com/jdx) in [#5279](https://github.com/jdx/mise/pull/5279)
+
+### New Contributors
+
+- @mrazauskas made their first contribution in [#5306](https://github.com/jdx/mise/pull/5306)
 
 ## [2025.6.0](https://github.com/jdx/mise/compare/v2025.5.17..v2025.6.0) - 2025-06-02
 
